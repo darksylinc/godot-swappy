@@ -6,7 +6,9 @@ See [Releases page](https://github.com/godotengine/godot-angle-static/releases).
 
 # How to build from source
 
-This script has only been tested on Ubuntu 24.04 LTS. **READ ALL THE STEPS BEFORE LAUNCHING THE SCRIPT**.
+This script has only been tested on Ubuntu 24.04 LTS. I used Android Studio 2023.2.1.
+
+**READ ALL THE STEPS BEFORE LAUNCHING THE SCRIPT**.
 
 1. The script will checkout a specific commit hash. If you want a different one, Edit [build.bash](./build.bash) and change `SPECIFIC_REVISION` variable.
 2. You **must** set environment variables `ANDROID_SDK` to point to Android SDK and `JAVA_HOME` to point to the Java installation (for best results, use the one bundled with Android Studio), and `ANDROID_NDK` to a specific NDK version (see Common Errors section).
